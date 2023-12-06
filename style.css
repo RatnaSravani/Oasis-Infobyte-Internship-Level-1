@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans' ,sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(166, 204, 231);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: dodgerblue;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: black;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    text-align: center;
+}
+h3{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(166, 204, 231);
+}
+.about img{
+    height: auto;
+    width: 300px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: rgb(37, 34, 34);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+.skills{
+    background-color: rgb(166, 204, 231);
+    height: 600px;
+    width: 100%;
+    color: #131212;
+    padding-top: 30px;
+}
+.skills .skill-container{
+    height: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 7rem 0;
+    padding: 3rem;
+    background-color: rgb(166, 204, 231);
+}
+.skills .skill-container .skill{
+    width: 20rem;
+    margin: 2rem 0.5rem;
+    padding-left: 3rem;
+    border-left: .2rem solid black;
+    position: relative;
+}
+.skills .skill-container .skill h3{
+    font-synthesis: 1.5rem;
+    color: black;
+}
+.contact{
+    background-color: wheat;
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 30px 50px 50px 0;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Josefin Sans' ,sans-serif;
+    margin: 20px;
+    margin-left: 110px;
+}
+.detail .leftside{
+    margin: 25px 50px;
+    padding: 25px 50px;
+}
+.leftside .field{
+    padding-top: 15px;
+}
+.leftside .field input{
+    height: 32px;
+    width: 400px;
+    border: 1px solid lightgray;
+    border-end-end-radius: 2px;
+    outline: none;
+    font-size: 17px;
+}
+.leftside .btn{
+    padding: 5px;
+    margin: 12px auto;
+    width: 180px;
+}
+.leftside .btn button{
+    width: 150px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.detail .rightside{
+    margin: 25px 5px;
+    padding: 25px 5px;
+}
+.rightside .info{
+    margin: 5px;
+    padding: 5px;
+}
+.rightside .q{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 2px;
+}
+.rightside .a{
+    font-weight: 300;
+    font-size: 20px;
+    padding: 2px;
+}
